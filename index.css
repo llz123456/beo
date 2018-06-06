@@ -1,0 +1,89 @@
+*{
+	margin:0;
+}
+.container{
+	width:1024px;
+	margin: 0 auto:;
+}
+.header-box{
+    height:100vh;
+    background:#192314;
+    overflow: hidden;
+    position: relative;
+}
+.header-pic-box{
+    width:652px;
+    height:488px;
+    background:url(green-beosound-shape-desktop.jpg);
+    background-size:100% auto;
+    float:right;
+}
+.header-text-box{
+    width:512px;
+    height:208px;
+    position:absolute;
+    top:150px;
+    left:100px; 
+    color:#fff;
+    font-size: 12px;
+}
+.description{
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.title{
+    font-weight: normal;
+    font-size:30px;
+    line-height:39px;
+    margin-top:15px;
+    margin-bottom:24px;
+    letter-spacing: 4px;
+}
+.small-desc{
+    font-size:13px;
+    line-height: 21px;
+    margin-bottom:20px;
+}
+.button{
+    display: block;
+    width:202px;
+    line-height:21px;
+    padding:10px 40px;
+    background-color: rgba(255,255,255,.1);
+    color: #fff;
+    text-align:center;
+    text-decoration: none;
+}
+.banner-box{
+    height:305px;
+    padding-bottom:100px;
+    background:url(img-bg-1350.jpg);
+    background-size:100% auto;
+    background-position:0 -158px;
+}
+.product-box{
+    width: 705px;
+    height: 353px;
+    margin: 0 auto;
+    margin-top: -48px;
+    position: relative;
+    z-index: 100;
+}
+.product-item{
+    float:left;
+    width:235px;
+    height:353px;
+    position:relative;
+}
+.product-item img{
+    width:100%;
+}
+.product-item h4{
+    position: absolute;
+    top:15px;
+    left:20px;
+    color:#fff;
+    font-size:18px; 
+    font-weight:500;
+    line-height:24px;
+}
