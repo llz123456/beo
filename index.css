@@ -1,9 +1,12 @@
 *{
 	margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 .container{
 	width:1024px;
 	margin: 0 auto;
+    position: relative;
 }
 .header-box{
     height:100vh;
@@ -46,7 +49,7 @@
 }
 .button{
     display: block;
-    width:202px;
+    width:282px;
     line-height:21px;
     padding:10px 40px;
     background-color: rgba(255,255,255,.1);
@@ -55,7 +58,7 @@
     text-decoration: none;
 }
 .banner-box{
-    height:305px;
+    height:405px;
     padding-bottom:100px;
     background:url(img-bg-1350.jpg);
     background-size:100% auto;
@@ -86,4 +89,127 @@
     font-size:18px; 
     font-weight:500;
     line-height:24px;
+}
+.top-menu{
+    height:57px;
+    padding:0 22px;
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 2000;
+}
+.left,.right{
+    height:100%;
+    width:128px;
+    line-height: 57px;
+    font-size: 12px;
+    color:#fff;
+    text-align:center; 
+}
+.left{
+    background: url(product.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.right{
+    background: url(menu.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.center{
+    height:100%;
+    line-height: 57px;
+    width:190px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.title-box{
+    text-align: center;
+    height:220px;
+    margin:100px 0 0 0;
+}
+.title-box h6{
+    margin:12px 0 18px 0;
+    font-size:13px;
+    font-weight:normal;
+    line-height:21px;
+    letter-spacing:1px;
+}
+.title-box h2{
+    margin:15px 0 24px 0;
+    font-size:30px;
+    font-weight:normal;
+    line-height:39px;
+    letter-spacing:4px;
+}
+.product-list{
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    width:512px;
+    height:512px;
+    position: relative;
+}
+.product:nth-child(1){
+    background: url(beosound-shape-mobile.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(2){
+    background: url(beovision-eclipse-mobile.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(3){
+    background: url(beolab-50-mobile.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(4){
+    background: url(beoplay-p6-categories-mobile-2.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(5){
+    background: url(beosound-core-mobile.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(6){
+    background: url(beoplay-h9i-mobile.jpg);
+    background-size: 100% auto;
+}
+.product h4{
+    position: absolute;
+    top:15px;
+    left:20px;
+    color:#fff;
+    font-size:18px; 
+    font-weight:500;
+    line-height:24px;
+}
+.story-box{
+    margin:0 0 0 159px;
+    display: flex;
+    width:705px;
+}
+.story img{
+    height:168px;
+}
+.story h5{
+    color:#000;
+    font-size:12px;
+    font-weight:300;
+    line-height:24px;
+    letter-spacing:normal;
+    margin:27px 0 18px 0;
+}
+.storytext{
+    color:#000;
+    font-size:13px;
+    font-weight:300;
+    line-height:21px;
+    letter-spacing:normal;
 }
