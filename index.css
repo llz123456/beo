@@ -331,7 +331,7 @@
     height: 82px;
     padding: 20px 14px;
     display: flex;
-    justify-content: normal;
+    justify-content: space-between;
 }
 
 .footer .left {
